@@ -1,7 +1,7 @@
 'use strict';
 
-const { assert } = require('chai');
-const { add } = require("../");
+const assert = require('chai');
+const add = require("../");
 
 describe('add()', () => {
     it('should add positive numbers together', () => {
