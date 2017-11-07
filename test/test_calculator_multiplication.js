@@ -5,7 +5,7 @@ const {multiply} = require('../');
 
 describe('multiply()', () => {
     it('should multiply positive numbers together', () => {
-			assert.equal(mulitply(2, 3), 6);
+			assert.equal(multiply(2, 3), 6);
 		});
 
     it('should multiply positive and negative numbers together', () => {
